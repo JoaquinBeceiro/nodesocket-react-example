@@ -1,0 +1,21 @@
+{
+  "name": "socket-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init": "npm run init-root && npm run init-react && npm run init-node",
+    "init-root": "npm install",
+    "init-react": "cd react-front && npm install",
+    "init-node": "cd node-server && npm install",
+    "start-dev": "concurrently 'npm run start-node' 'npm run start-react'",
+    "start-react": "cd react-front && yarn start",
+    "start-node": "nodemon node-server/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^4.0.1",
+    "nodemon": "^1.18.6"
+  }
+}
