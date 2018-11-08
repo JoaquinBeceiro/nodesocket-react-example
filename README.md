@@ -5,7 +5,7 @@
 
 - 1. Install server dependencies at root folder: `$ npm run init`
 - 2. Start Node server and react app: `$ npm run start-dev`
-- 3. Go to [127.0.0.1:3000](127.0.0.1:3000) and test! 🎉
+- 3. Go to [127.0.0.1:3000](127.0.0.1:3000) and test it on two or more tabs at the same time! 🎉
 
 ## Author
  **Joaquin Beceiro** 
